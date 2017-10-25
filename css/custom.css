@@ -19,13 +19,6 @@ body {
   width:100%;
 }
 
-.logo {
-  color:#fff;
-  font-weight:800;
-  font-size:14pt;
-  padding:25px;
-  text-align:center;
-}
 
 .line {
   padding-top:20px;
@@ -44,9 +37,30 @@ body {
 }
 
 div ul li a:hover{
-    border-bottom: 1px solid;
+ 
+    border-bottom: 2px solid orange;
 }
 .card-title{
     margin-top: 10px;
 }
-
+.title h3 {
+    margin-top:10px;
+    color: orange;
+}
+figure {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+hr {
+   border-color: orange;
+}
+.bt-color{
+    border-color: orange;
+    background-color: orange;
+}
+.container{
+    position: relative;
+}
