@@ -64,3 +64,8 @@ hr {
 .container{
     position: relative;
 }
+.credit {
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
