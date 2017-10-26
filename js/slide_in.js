@@ -30,7 +30,6 @@ $(document).ready(function() {
     });
 
   }
-    
 
   //on or scroll, detect elements in view
   $(window).on('scroll resize', function() {
