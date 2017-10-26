@@ -1,0 +1,228 @@
+
+
+
+/** skills bar ui **/
+#skillset {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#skillset .skill { 
+  display: block;
+  margin-bottom: 20px;
+}
+
+#skillset .skill h3 {
+  display: block;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 2px;
+}
+
+#skillset .skill .bar {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  width: 600px;
+  padding: 3px 4px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 2px #969492;	
+  -moz-box-shadow: 1px 1px 2px #969492;
+  box-shadow: 1px 1px 2px #969492;
+  background-color: #dadada;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#efeaea), to(#dadada));
+  background-image: -webkit-linear-gradient(top, #efeaea, #dadada);
+  background-image: -moz-linear-gradient(top, #efeaea, #dadada);
+  background-image: -ms-linear-gradient(top, #efeaea, #dadada);
+  background-image: -o-linear-gradient(top, #efeaea, #dadada);
+  background-image: linear-gradient(top, #efeaea, #dadada);
+}
+
+#skillset .skill .bar .skillbar {
+  display: block;
+  height: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #414141;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.55);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #4cc958;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#68e574), to(#4cc958));
+  background-image: -webkit-linear-gradient(top, #68e574, #4cc958);
+  background-image: -moz-linear-gradient(top, #68e574, #4cc958);
+  background-image: -ms-linear-gradient(top, #68e574, #4cc958);
+  background-image: -o-linear-gradient(top, #68e574, #4cc958);
+  background-image: linear-gradient(top, #68e574, #4cc958);
+}
+#skillset .skill .bar .skillbar small { font-size: 0.85em; padding-left: 3px; vertical-align: top; }
+
+
+/** css3 animations **/
+/** fill modes: http://stackoverflow.com/a/20274314/477958 **/
+#skillset .skill .bar .htmlcss {
+  -moz-animation: htmlcss 2.5s ease-in-out forwards;
+  -webkit-animation: htmlcss 2.5s ease-in-out forwards;
+  animation: htmlcss 2.5s ease-in-out forwards;
+}
+
+#skillset .skill .bar .jquery {
+  -moz-animation: jquery 2.5s ease-in-out forwards;
+  -webkit-animation: jquery 2.5s ease-in-out forwards;
+  animation: jquery 2.5s ease-in-out forwards;
+}
+
+#skillset .skill .bar .phpmysql {
+  -moz-animation: phpmysql 2.5s ease-in-out forwards;
+  -webkit-animation: phpmysql 2.5s ease-in-out forwards;
+  animation: phpmysql 2.5s ease-in-out forwards;
+}
+
+#skillset .skill .bar .JavaScript {
+  -moz-animation: JavaScript 2.5s ease-in-out forwards;
+  -webkit-animation: JavaScript 2.5s ease-in-out forwards;
+  animation: JavaScript 2.5s ease-in-out forwards;
+}
+
+#skillset .skill .bar .woocommerce {
+  -moz-animation: woocommerce 2.5s ease-in-out forwards;
+  -webkit-animation: woocommerce 2.5s ease-in-out forwards;
+  animation: woocommerce 2.5s ease-in-out forwards;
+}
+
+
+/** CSS3 keyframes **/
+@-moz-keyframes htmlcss {
+  0%   { width: 35px; }
+  100% { width: 50%; }
+}
+@-webkit-keyframes htmlcss {
+  0%   { width: 35px; }
+  100% { width: 50%; }
+}
+@keyframes htmlcss {
+  0%   { width: 35px; }
+  100% { width: 50%; }
+}
+
+
+@-moz-keyframes phpmysql {
+  0%   { width: 45px; }
+  100% { width: 20%; }
+}
+@-webkit-keyframes phpmysql {
+  0%   { width: 45px; }
+  100% { width: 20%; }
+}
+@keyframes phpmysql {
+  0%   { width: 45px; }
+  100% { width: 20%; }
+}
+
+
+@-moz-keyframes jquery {
+  0%   { width: 45px; } 
+  100% { width: 30%; }
+}
+@-webkit-keyframes jquery {
+  0%   { width: 45px; } 
+  100% { width: 30%; }
+}
+@keyframes jquery {
+  0%   { width: 45px; } 
+  100% { width: 30%; }
+}
+
+
+@-moz-keyframes JavaScript {
+  0%   { width: 35px; } 
+  100% { width: 30%; }
+}
+@-webkit-keyframes JavaScript {
+  0%   { width: 35px; } 
+  100% { width: 30%; }
+}
+@keyframes JavaScript {
+  0%   { width: 35px; } 
+  100% { width: 30%; }
+}
+
+
+@-moz-keyframes woocommerce {
+  0%   { width: 35px; } 
+  100% { width: 35%; }
+}
+@-webkit-keyframes woocommerce {
+  0%   { width: 35px; } 
+  100% { width: 35%; }
+}
+@keyframes woocommerce {
+  0%   { width: 35px; } 
+  100% { width: 35%; }
+}
+
+
+/** multicolored skill bars **/
+#skillset .skill .bar .skillbar.htmlcss.alt {
+  background-color: #676767;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#858985), to(#676767));
+  background-image: -webkit-linear-gradient(top, #858985, #676767);
+  background-image: -moz-linear-gradient(top, #858985, #676767);
+  background-image: -ms-linear-gradient(top, #858985, #676767);
+  background-image: -o-linear-gradient(top, #858985, #676767);
+  background-image: linear-gradient(top, #858985, #676767);
+}
+
+#skillset .skill .bar .skillbar.phpmysql.alt {
+  background-color: #9b35aa;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af4ebd), to(#9b35aa));
+  background-image: -webkit-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: -moz-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: -ms-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: -o-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: linear-gradient(top, #af4ebd, #9b35aa);
+}
+
+#skillset .skill .bar .skillbar.jquery.alt {
+  background-color: #c98c34;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dfa450), to(#c98c34));
+  background-image: -webkit-linear-gradient(top, #dfa450, #c98c34);
+  background-image: -moz-linear-gradient(top, #dfa450, #c98c34);
+  background-image: -ms-linear-gradient(top, #dfa450, #c98c34);
+  background-image: -o-linear-gradient(top, #dfa450, #c98c34);
+  background-image: linear-gradient(top, #dfa450, #c98c34);
+}
+
+#skillset .skill .bar .skillbar.JavaScript.alt {
+  background-color: #4e59c3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5e6ae2), to(#4e59c3));
+  background-image: -webkit-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: -moz-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: -ms-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: -o-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: linear-gradient(top, #5e6ae2, #4e59c3);
+}
+
+#skillset .skill .bar .skillbar.woocommerce.alt {
+  background-color: #539fc1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7cc4e5), to(#539fc1));
+  background-image: -webkit-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: -moz-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: -ms-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: -o-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: linear-gradient(top, #7cc4e5, #539fc1);
+}
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
