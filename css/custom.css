@@ -39,7 +39,10 @@ body {
 div ul li a:hover{
  
     border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
 }
+
+
 .card-title{
     margin-top: 10px;
 }
@@ -68,7 +71,6 @@ hr {
     color: #fff;
     text-align: center;
     font-size: 10px;
-    margin-bottom: 0px;
 }
 
 /*form*/
@@ -76,7 +78,7 @@ hr {
 
 .form-style-6{
     font: 95% Arial, Helvetica, sans-serif;
-    max-width: 400px;
+    max-width: 500px;
     margin: 10px auto;
     padding: 16px;
     background: #F7F7F7;
@@ -186,3 +188,4 @@ hr {
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+

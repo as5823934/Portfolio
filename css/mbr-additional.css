@@ -1503,16 +1503,16 @@ body {
   -webkit-flex-direction: row;
 }
 .cid-qyz5u5LDNJ .timeline-element:hover .mbr-timeline-date {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all .4s;
+  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.5);
+  transition: all .6s;
 }
 .cid-qyz5u5LDNJ .timeline-element:hover .timeline-text-content {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all .4s;
+  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.5);
+  transition: all .6s;
 }
 .cid-qyz5u5LDNJ .mbr-timeline-date,
 .cid-qyz5u5LDNJ .timeline-text-content {
-  transition: all .4s;
+  transition: all .6s;
 }
 .cid-qyz5u5LDNJ .reverse {
   flex-direction: row-reverse;
