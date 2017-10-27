@@ -91,25 +91,25 @@
   animation: JavaScript 2.5s ease-in-out forwards;
 }
 
-#skillset .skill .bar .woocommerce {
-  -moz-animation: woocommerce 2.5s ease-in-out forwards;
-  -webkit-animation: woocommerce 2.5s ease-in-out forwards;
-  animation: woocommerce 2.5s ease-in-out forwards;
+#skillset .skill .bar .java {
+  -moz-animation: java 2.5s ease-in-out forwards;
+  -webkit-animation: java 2.5s ease-in-out forwards;
+  animation: java 2.5s ease-in-out forwards;
 }
 
 
 /** CSS3 keyframes **/
 @-moz-keyframes htmlcss {
   0%   { width: 35px; }
-  100% { width: 50%; }
+  100% { width: 60%; }
 }
 @-webkit-keyframes htmlcss {
   0%   { width: 35px; }
-  100% { width: 50%; }
+  100% { width: 60%; }
 }
 @keyframes htmlcss {
   0%   { width: 35px; }
-  100% { width: 50%; }
+  100% { width: 60%; }
 }
 
 
@@ -155,15 +155,15 @@
 }
 
 
-@-moz-keyframes woocommerce {
+@-moz-keyframes java {
   0%   { width: 35px; } 
   100% { width: 35%; }
 }
-@-webkit-keyframes woocommerce {
+@-webkit-keyframes java {
   0%   { width: 35px; } 
   100% { width: 35%; }
 }
-@keyframes woocommerce {
+@keyframes java {
   0%   { width: 35px; } 
   100% { width: 35%; }
 }
