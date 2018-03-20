@@ -159,15 +159,15 @@
 
 @-moz-keyframes java {
   0%   { width: 35px; } 
-  100% { width: 35%; }
+  100% { width: 60%; }
 }
 @-webkit-keyframes java {
   0%   { width: 35px; } 
-  100% { width: 35%; }
+  100% { width: 60%; }
 }
 @keyframes java {
   0%   { width: 35px; } 
-  100% { width: 50%; }
+  100% { width: 60%; }
 }
 
 
