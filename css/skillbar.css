@@ -103,43 +103,43 @@
 /** CSS3 keyframes **/
 @-moz-keyframes htmlcss {
   0%   { width: 35px; }
-  100% { width: 60%; }
+  100% { width: 70%; }
 }
 @-webkit-keyframes htmlcss {
   0%   { width: 35px; }
-  100% { width: 60%; }
+  100% { width: 70%; }
 }
 @keyframes htmlcss {
   0%   { width: 35px; }
-  100% { width: 60%; }
+  100% { width: 70%; }
 }
 
 
 @-moz-keyframes phpmysql {
   0%   { width: 45px; }
-  100% { width: 20%; }
+  100% { width: 40%; }
 }
 @-webkit-keyframes phpmysql {
   0%   { width: 45px; }
-  100% { width: 20%; }
+  100% { width: 40%; }
 }
 @keyframes phpmysql {
   0%   { width: 45px; }
-  100% { width: 20%; }
+  100% { width: 40%; }
 }
 
 
 @-moz-keyframes jquery {
   0%   { width: 45px; } 
-  100% { width: 30%; }
+  100% { width: 40%; }
 }
 @-webkit-keyframes jquery {
   0%   { width: 45px; } 
-  100% { width: 30%; }
+  100% { width: 40%; }
 }
 @keyframes jquery {
   0%   { width: 45px; } 
-  100% { width: 30%; }
+  100% { width: 40%; }
 }
 
 
@@ -159,15 +159,15 @@
 
 @-moz-keyframes java {
   0%   { width: 35px; } 
-  100% { width: 60%; }
+  100% { width: 70%; }
 }
 @-webkit-keyframes java {
   0%   { width: 35px; } 
-  100% { width: 60%; }
+  100% { width: 70%; }
 }
 @keyframes java {
   0%   { width: 35px; } 
-  100% { width: 60%; }
+  100% { width: 70%; }
 }
 
 
