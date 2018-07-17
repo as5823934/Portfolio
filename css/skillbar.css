@@ -145,15 +145,15 @@
 
 @-moz-keyframes JavaScript {
   0%   { width: 35px; } 
-  100% { width: 30%; }
+  100% { width: 80%; }
 }
 @-webkit-keyframes JavaScript {
   0%   { width: 35px; } 
-  100% { width: 30%; }
+  100% { width: 80%; }
 }
 @keyframes JavaScript {
   0%   { width: 35px; } 
-  100% { width: 30%; }
+  100% { width: 80%; }
 }
 
 
