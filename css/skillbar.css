@@ -75,16 +75,22 @@
   animation: htmlcss 2.5s ease-in-out forwards;
 }
 
-.skillset .skill .bar .jquery {
-  -moz-animation: jquery 2.5s ease-in-out forwards;
-  -webkit-animation: jquery 2.5s ease-in-out forwards;
-  animation: jquery 2.5s ease-in-out forwards;
+.skillset .skill .bar .objective {
+  -moz-animation: objective 2.5s ease-in-out forwards;
+  -webkit-animation: objective 2.5s ease-in-out forwards;
+  animation: objective 2.5s ease-in-out forwards;
 }
 
-.skillset .skill .bar .phpmysql {
-  -moz-animation: phpmysql 2.5s ease-in-out forwards;
-  -webkit-animation: phpmysql 2.5s ease-in-out forwards;
-  animation: phpmysql 2.5s ease-in-out forwards;
+.skillset .skill .bar .python {
+  -moz-animation: python 2.5s ease-in-out forwards;
+  -webkit-animation: python 2.5s ease-in-out forwards;
+  animation: python 2.5s ease-in-out forwards;
+}
+
+.skillset .skill .bar .react {
+  -moz-animation: react 2.5s ease-in-out forwards;
+  -webkit-animation: react 2.5s ease-in-out forwards;
+  animation: react 2.5s ease-in-out forwards;
 }
 
 .skillset .skill .bar .JavaScript {
@@ -97,6 +103,18 @@
   -moz-animation: java 2.5s ease-in-out forwards;
   -webkit-animation: java 2.5s ease-in-out forwards;
   animation: java 2.5s ease-in-out forwards;
+}
+
+.skillset .skill .bar .wordpress_php_mysql {
+  -moz-animation: wordpress_php_mysql 2.5s ease-in-out forwards;
+  -webkit-animation: wordpress_php_mysql 2.5s ease-in-out forwards;
+  animation: wordpress_php_mysql 2.5s ease-in-out forwards;
+}
+
+.skillset .skill .bar .git_jira_firebase {
+  -moz-animation: git_jira_firebase 2.5s ease-in-out forwards;
+  -webkit-animation: git_jira_firebase 2.5s ease-in-out forwards;
+  animation: git_jira_firebase 2.5s ease-in-out forwards;
 }
 
 
@@ -115,31 +133,31 @@
 }
 
 
-@-moz-keyframes phpmysql {
+@-moz-keyframes python {
   0%   { width: 45px; }
   100% { width: 40%; }
 }
-@-webkit-keyframes phpmysql {
+@-webkit-keyframes python {
   0%   { width: 45px; }
   100% { width: 40%; }
 }
-@keyframes phpmysql {
+@keyframes python {
   0%   { width: 45px; }
   100% { width: 40%; }
 }
 
 
-@-moz-keyframes jquery {
+@-moz-keyframes objective {
   0%   { width: 45px; } 
-  100% { width: 40%; }
+  100% { width: 60%; }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes objective {
   0%   { width: 45px; } 
-  100% { width: 40%; }
+  100% { width: 60%; }
 }
-@keyframes jquery {
+@keyframes objective {
   0%   { width: 45px; } 
-  100% { width: 40%; }
+  100% { width: 60%; }
 }
 
 
@@ -156,6 +174,18 @@
   100% { width: 80%; }
 }
 
+@-moz-keyframes react {
+  0%   { width: 35px; } 
+  100% { width: 70%; }
+}
+@-webkit-keyframes react {
+  0%   { width: 35px; } 
+  100% { width: 70%; }
+}
+@keyframes react {
+  0%   { width: 35px; } 
+  100% { width: 70%; }
+}
 
 @-moz-keyframes java {
   0%   { width: 35px; } 
@@ -170,6 +200,32 @@
   100% { width: 70%; }
 }
 
+@-moz-keyframes wordpress_php_mysql {
+  0%   { width: 35px; } 
+  100% { width: 40%; }
+}
+@-webkit-keyframes wordpress_php_mysql {
+  0%   { width: 35px; } 
+  100% { width: 40%; }
+}
+@keyframes wordpress_php_mysql {
+  0%   { width: 35px; } 
+  100% { width: 40%; }
+}
+
+@-moz-keyframes git_jira_firebase {
+  0%   { width: 35px; } 
+  100% { width: 60%; }
+}
+@-webkit-keyframes git_jira_firebase {
+  0%   { width: 35px; } 
+  100% { width: 60%; }
+}
+@keyframes git_jira_firebase {
+  0%   { width: 35px; } 
+  100% { width: 60%; }
+}
+
 
 /** multicolored skill bars **/
 .skillset .skill .bar .skillbar.htmlcss.alt {
@@ -182,7 +238,7 @@
   background-image: linear-gradient(top, #858985, #676767);
 }
 
-.skillset .skill .bar .skillbar.phpmysql.alt {
+.skillset .skill .bar .skillbar.python.alt {
   background-color: #9b35aa;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#af4ebd), to(#9b35aa));
   background-image: -webkit-linear-gradient(top, #af4ebd, #9b35aa);
@@ -192,7 +248,17 @@
   background-image: linear-gradient(top, #af4ebd, #9b35aa);
 }
 
-.skillset .skill .bar .skillbar.jquery.alt {
+.skillset .skill .bar .skillbar.react.alt {
+  background-color: #9b35aa;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af4ebd), to(#9b35aa));
+  background-image: -webkit-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: -moz-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: -ms-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: -o-linear-gradient(top, #af4ebd, #9b35aa);
+  background-image: linear-gradient(top, #af4ebd, #9b35aa);
+}
+
+.skillset .skill .bar .skillbar.objective.alt {
   background-color: #c98c34;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#dfa450), to(#c98c34));
   background-image: -webkit-linear-gradient(top, #dfa450, #c98c34);
@@ -213,6 +279,26 @@
 }
 
 .skillset .skill .bar .skillbar.java.alt {
+  background-color: #539fc1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7cc4e5), to(#539fc1));
+  background-image: -webkit-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: -moz-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: -ms-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: -o-linear-gradient(top, #7cc4e5, #539fc1);
+  background-image: linear-gradient(top, #7cc4e5, #539fc1);
+}
+
+.skillset .skill .bar .skillbar.wordpress_php_mysql.alt {
+  background-color: #4e59c3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5e6ae2), to(#4e59c3));
+  background-image: -webkit-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: -moz-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: -ms-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: -o-linear-gradient(top, #5e6ae2, #4e59c3);
+  background-image: linear-gradient(top, #5e6ae2, #4e59c3);
+}
+
+.skillset .skill .bar .skillbar.git_jira_firebase.alt {
   background-color: #539fc1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#7cc4e5), to(#539fc1));
   background-image: -webkit-linear-gradient(top, #7cc4e5, #539fc1);
